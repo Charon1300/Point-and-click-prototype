@@ -21,7 +21,7 @@ if (string_pos("is", mini_struct.mystery) != 0)
 
 var str = name_edit;
 */
-var word = "wrench";
+var word = "Wrench";
 
 with(inst_text){
 	name_case = name_c;
