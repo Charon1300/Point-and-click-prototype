@@ -9,3 +9,4 @@ info_struct =
 
 posX = 100;
 posY = 135;
+mini_mystery = "inst_4970889D";//mini mystery 0

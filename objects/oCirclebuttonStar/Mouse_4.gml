@@ -8,3 +8,4 @@ layer_set_visible("textbox", true);
 instance_activate_layer("Star_layer");
 //turns off instance layer
 instance_deactivate_layer("Instances");
+//inst_4970889D.itemName = true;

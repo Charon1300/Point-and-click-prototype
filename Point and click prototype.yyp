@@ -60,6 +60,7 @@
     {"id":{"name":"oWordboxNoun","path":"objects/oWordboxNoun/oWordboxNoun.yy",},},
     {"id":{"name":"oWordboxVerb","path":"objects/oWordboxVerb/oWordboxVerb.yy",},},
     {"id":{"name":"oWordTabNoun","path":"objects/oWordTabNoun/oWordTabNoun.yy",},},
+    {"id":{"name":"oWordTabVerb","path":"objects/oWordTabVerb/oWordTabVerb.yy",},},
     {"id":{"name":"oX","path":"objects/oX/oX.yy",},},
     {"id":{"name":"a","path":"rooms/a/a.yy",},},
     {"id":{"name":"point_click","path":"rooms/point_click/point_click.yy",},},

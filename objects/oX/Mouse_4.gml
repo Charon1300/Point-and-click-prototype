@@ -16,4 +16,5 @@ instance_deactivate_layer("Mini_layer");
 //instance_activate_layer("ui1");
 //destoys all text objects
 instance_destroy(oText);
+instance_destroy(oWordboxNoun);
 //surface_reset_target();

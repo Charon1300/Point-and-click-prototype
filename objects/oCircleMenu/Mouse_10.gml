@@ -4,4 +4,8 @@
 with(childtake) {
 	creationSpr = other.itemSpr;
 }
+
+with(childstar) {
+	itemName = other.itemName;	
+}
 instance_activate_layer("Take_layer");

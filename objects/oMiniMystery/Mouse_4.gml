@@ -8,7 +8,12 @@ instance_activate_layer("Mini_layer");
 
 var inst_text = instance_create_layer(x, y,"Mini_layer", oMini_maker);
 
-var inst_word = instance_create_layer(500, 50,"Mini_layer", oWordboxNoun);
+//x axis 416, 672, 928, 11,84, 1440, 1696, y 544
+var inst_word0 = instance_create_layer(416, 544,"Mini_layer", oWordboxNoun);
+var inst_word1 = instance_create_layer(672, 544,"Mini_layer", oWordboxNoun);
+var inst_word2 = instance_create_layer(928, 544,"Mini_layer", oWordboxNoun);
+
+var instlist = [inst_word0, inst_word1, inst_word2];
 
 var name_c = mini_struct.name;
 var mystery_c = mini_struct.mystery;
@@ -28,7 +33,21 @@ with(inst_text){
 	mystery = mystery_c;
 }
 
-with(inst_word){
+with(inst_word0){
+	instance_deactivate_object(self);
+	name = word;
+	if (other.Wrecnch != false){
+		instance_activate_object(self);
+	}
+}
+
+with(inst_word1){
+	//instance_deactivate_object(self);
+	name = word;
+}
+
+with(inst_word2){
+	//instance_deactivate_object(self);
 	name = word;
 }
 
