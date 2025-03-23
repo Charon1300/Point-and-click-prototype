@@ -33,22 +33,17 @@ with(inst_text){
 	mystery = mystery_c;
 }
 
+
 with(inst_word0){
-	instance_deactivate_object(self);
-	name = word;
-	if (other.Wrecnch != false){
-		instance_activate_object(self);
-	}
+	name = other.word0;
 }
 
 with(inst_word1){
-	//instance_deactivate_object(self);
-	name = word;
+	name = other.word1;
 }
 
 with(inst_word2){
-	//instance_deactivate_object(self);
-	name = word;
+	name = other.word2;
 }
 
 //turns off instance layer

@@ -9,3 +9,11 @@ instance_activate_layer("Star_layer");
 //turns off instance layer
 instance_deactivate_layer("Instances");
 //inst_4970889D.itemName = true;
+with(inst_4970889D){
+	
+	if (word0 == ""){
+		word0 = other.itemName;
+	} else if (word0 != "" && word1 == "") {
+		word1 = other.itemName;
+	}
+}

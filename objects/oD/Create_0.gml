@@ -7,3 +7,6 @@ info_struct =
 	lore : "A great tool that is made for making of objects"
 };
 
+posX = 100;
+posY = 135;
+mini_mystery = "inst_4970889D";
