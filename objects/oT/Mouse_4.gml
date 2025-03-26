@@ -21,8 +21,12 @@ var instlist = [inst, inst1, inst2, inst3, inst4];
 
 if (cursor_sprite == mouse){
 	
+	
+	var mm = mini_mystery;
 	//circle
-	var instItem = instance_create_layer(x, y,"ui", oCircleMenu);
+	var instItem = instance_create_layer(x, y,"ui", oCircleMenu, 
+	{ itemInfo : info_struct,
+	});
 	//info layer text
 	var inst_text = instance_create_layer(x, y,"Info_layer", oText);
 	//take layer 
@@ -31,6 +35,7 @@ if (cursor_sprite == mouse){
 	var text_name =  info_struct.name;
 	var text_sub = info_struct.subtext;
 	var text_lore = info_struct.lore;
+	
 	//sets info layer text var 
 	with(inst_text) {
 		text = text_name;
@@ -42,6 +47,7 @@ if (cursor_sprite == mouse){
 	with(instItem) {
 		itemSpr = other.sprite_index;
 		itemName = text_name;
+		itemMystery = mm;
 	}
 //else for use of items on interactables
 } else {

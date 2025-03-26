@@ -7,5 +7,6 @@ with(childtake) {
 
 with(childstar) {
 	itemName = other.itemName;	
+	itemMM = itemMysteryA;
 }
 instance_activate_layer("Take_layer");

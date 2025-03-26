@@ -9,7 +9,9 @@ instance_activate_layer("Star_layer");
 //turns off instance layer
 instance_deactivate_layer("Instances");
 //inst_4970889D.itemName = true;
-with(inst_4970889D){
+var itemMini = itemMM;
+
+with(itemMini){
 	
 	if (word0 == ""){
 		word0 = other.itemName;
