@@ -22,7 +22,9 @@ var instlist = [inst, inst1, inst2, inst3, inst4];
 if (cursor_sprite == mouse){
 	
 	//circle
-	var instItem = instance_create_layer(x, y,"ui", oCircleMenu);
+	var instItem = instance_create_layer(x, y,"ui", oCircleMenu, 
+	{ itemInfo : info_struct,
+	});
 	//info layer text
 	var inst_text = instance_create_layer(x, y,"Info_layer", oText);
 	//take layer 

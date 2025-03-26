@@ -22,7 +22,7 @@ var instlist = [inst, inst1, inst2, inst3, inst4];
 if (cursor_sprite == mouse){
 	
 	
-	var mm = mini_mystery;
+	//var mm = mini_mystery;
 	//circle
 	var instItem = instance_create_layer(x, y,"ui", oCircleMenu, 
 	{ itemInfo : info_struct,
@@ -44,11 +44,13 @@ if (cursor_sprite == mouse){
 	
 	}
 
+	/*
 	with(instItem) {
 		itemSpr = other.sprite_index;
 		itemName = text_name;
-		itemMystery = mm;
+		//itemMystery = mm;
 	}
+	*/
 //else for use of items on interactables
 } else {
 	

@@ -12,7 +12,7 @@ instance_deactivate_layer("Instances");
 var itemMini = itemMM;
 
 with(itemMini){
-	
+	//make array of spots that are full or empty iternate
 	if (word0 == ""){
 		word0 = other.itemName;
 	} else if (word0 != "" && word1 == "") {

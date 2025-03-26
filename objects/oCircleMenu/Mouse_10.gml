@@ -5,8 +5,9 @@ with(childtake) {
 	creationSpr = other.itemSpr;
 }
 
+var tempn = n;
 with(childstar) {
-	itemName = other.itemName;	
-	itemMM = itemMysteryA;
+	//itemName = tempn;	
+	//itemMM = itemMysteryA;
 }
 instance_activate_layer("Take_layer");

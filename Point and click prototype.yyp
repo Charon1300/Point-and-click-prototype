@@ -50,6 +50,7 @@
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
     {"id":{"name":"oInv","path":"objects/oInv/oInv.yy",},},
     {"id":{"name":"oMini_maker","path":"objects/oMini_maker/oMini_maker.yy",},},
+    {"id":{"name":"oMiniMystery_1","path":"objects/oMiniMystery_1/oMiniMystery_1.yy",},},
     {"id":{"name":"oMiniMystery","path":"objects/oMiniMystery/oMiniMystery.yy",},},
     {"id":{"name":"oPoint","path":"objects/oPoint/oPoint.yy",},},
     {"id":{"name":"oT","path":"objects/oT/oT.yy",},},
