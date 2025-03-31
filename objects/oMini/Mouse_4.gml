@@ -35,15 +35,15 @@ with(inst_text){
 
 
 with(inst_word0){
-	name = other.word0;
+	name = other.wordlist[0];
 }
 
 with(inst_word1){
-	name = other.word1;
+	name = other.wordlist[1];
 }
 
 with(inst_word2){
-	name = other.word2;
+	name = other.wordlist[2];
 }
 
 //turns off instance layer

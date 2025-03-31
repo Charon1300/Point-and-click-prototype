@@ -25,12 +25,12 @@
     {"name":"inst_40CF53A2","path":"rooms/point_click/point_click.yy",},
     {"name":"inst_2A9A4DCA","path":"rooms/point_click/point_click.yy",},
     {"name":"inst_D17EF35","path":"rooms/point_click/point_click.yy",},
-    {"name":"inst_95A5DEA","path":"rooms/point_click/point_click.yy",},
     {"name":"inst_4970889D","path":"rooms/point_click/point_click.yy",},
     {"name":"inst_5CC64D54","path":"rooms/point_click/point_click.yy",},
     {"name":"inst_2A14D83F","path":"rooms/point_click/point_click.yy",},
     {"name":"inst_12671BA9","path":"rooms/point_click/point_click.yy",},
     {"name":"inst_4094C454","path":"rooms/point_click/point_click.yy",},
+    {"name":"inst_95A5DEA","path":"rooms/point_click/point_click.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -54,8 +54,8 @@
     {"$GMRInstanceLayer":"","%Name":"Star_layer","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_4F82CB73","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F82CB73","objectId":{"name":"oX","path":"objects/oX/oX.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1824.0,"y":32.0,},
         {"$GMRInstance":"v1","%Name":"inst_4970889D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4970889D","objectId":{"name":"oMiniMystery","path":"objects/oMiniMystery/oMiniMystery.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1472.0,"y":384.0,},
-        {"$GMRInstance":"v1","%Name":"inst_4094C454","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4094C454","objectId":{"name":"oMiniMystery_1","path":"objects/oMiniMystery_1/oMiniMystery_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":416.0,},
-      ],"layers":[],"name":"Star_layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+        {"$GMRInstance":"v1","%Name":"inst_4094C454","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4094C454","objectId":{"name":"oMini","path":"objects/oMini/oMini.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":416.0,},
+      ],"layers":[],"name":"Star_layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRInstanceLayer":"","%Name":"Info_layer","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_5C8B21EF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5C8B21EF","objectId":{"name":"oX","path":"objects/oX/oX.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1824.0,"y":32.0,},
       ],"layers":[],"name":"Info_layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},

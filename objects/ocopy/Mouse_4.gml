@@ -11,15 +11,11 @@ layer_set_visible("textbox", false);
 instance_activate_layer("Instances");
 instance_deactivate_layer("Take_layer");
 instance_deactivate_layer("Star_layer");
-instance_destroy(oMini_maker);
-instance_destroy(oWordboxNoun);
 instance_deactivate_layer("Mini_layer");
-//instance_deactivate_layer("Info_layer");
 //instance_activate_layer("ui");
 //instance_activate_layer("ui1");
 //destoys all text objects
-instance_destroy(oText);
-
-//instance_destroy(oMini_maker);
-
+//instance_destroy(oText);
+//instance_destroy(oWordboxNoun);
+instance_destroy(oMini_maker);
 //surface_reset_target();

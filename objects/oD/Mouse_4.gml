@@ -40,11 +40,11 @@ if (cursor_sprite == mouse){
 		textlore = text_lore;
 	
 	}
-
+	/*
 	with(instItem) {
 		itemSpr = other.sprite_index;
 		itemName = text_name;
-	}
+	}*/
 //else for use of items on interactables
 } else {
 	

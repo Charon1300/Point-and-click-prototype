@@ -7,5 +7,3 @@ draw_set_valign(fa_top);
 
 draw_text_ext(65,55, name + name_case, -1, 500);
 draw_text_ext(65, 100, mystery, -1, 500);
-
-//string_insert()

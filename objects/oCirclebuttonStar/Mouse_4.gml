@@ -11,11 +11,24 @@ instance_deactivate_layer("Instances");
 //inst_4970889D.itemName = true;
 var itemMini = itemMM;
 
+
 with(itemMini){
 	//make array of spots that are full or empty iternate
+	for (var i = 0; i < other.itemnumNoun; i++){
+		if (wordlist[i] == "" && array_contains(wordlist, other.itemName) == false) {
+			wordlist[i] = other.itemName;
+			other.word_state[i] = true;
+			
+		}
+		
+		if(other.word_state[i] == true){
+			break;
+		}
+	}
+	/*
 	if (word0 == ""){
 		word0 = other.itemName;
 	} else if (word0 != "" && word1 == "") {
 		word1 = other.itemName;
-	}
+	}*/
 }

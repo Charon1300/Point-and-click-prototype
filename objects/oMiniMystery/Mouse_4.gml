@@ -12,11 +12,14 @@ var inst_text = instance_create_layer(x, y,"Mini_layer", oMini_maker);
 var inst_word0 = instance_create_layer(416, 544,"Mini_layer", oWordboxNoun);
 var inst_word1 = instance_create_layer(672, 544,"Mini_layer", oWordboxNoun);
 var inst_word2 = instance_create_layer(928, 544,"Mini_layer", oWordboxNoun);
+var inst_wordtext0 = instance_create_layer(65 + padding, 115,"Mini_layer", oWordboxNountext);
 
 var instlist = [inst_word0, inst_word1, inst_word2];
 
 var name_c = mini_struct.name;
 var mystery_c = mini_struct.mystery;
+//show_message(id);
+
 
 /*
 if (string_pos("is", mini_struct.mystery) != 0)
@@ -35,15 +38,15 @@ with(inst_text){
 
 
 with(inst_word0){
-	name = other.word0;
+	name = other.wordlist[0];
 }
 
 with(inst_word1){
-	name = other.word1;
+	name = other.wordlist[1];
 }
 
 with(inst_word2){
-	name = other.word2;
+	name = other.wordlist[2];
 }
 
 //turns off instance layer
