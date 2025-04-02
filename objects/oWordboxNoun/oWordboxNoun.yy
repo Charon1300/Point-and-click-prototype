@@ -28,11 +28,16 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"id_of_textbox","filters":[],"listItems":[],"multiselect":false,"name":"id_of_textbox","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":4,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Textbox_2",
+    "path":"sprites/Textbox_2/Textbox_2.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

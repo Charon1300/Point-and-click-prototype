@@ -8,11 +8,27 @@ instance_activate_layer("Mini_layer");
 
 var inst_text = instance_create_layer(x, y,"Mini_layer", oMini_maker);
 
-//x axis 416, 672, 928, 11,84, 1440, 1696, y 544
-var inst_word0 = instance_create_layer(416, 544,"Mini_layer", oWordboxNoun);
-var inst_word1 = instance_create_layer(672, 544,"Mini_layer", oWordboxNoun);
-var inst_word2 = instance_create_layer(928, 544,"Mini_layer", oWordboxNoun);
-var inst_wordtext0 = instance_create_layer(65 + padding, 115,"Mini_layer", oWordboxNountext);
+var inst_wordtext0 = instance_create_layer(65 + padding, 115,"Mini_layer", oWordboxNountext/*{
+id_struct : inst_struct}*/);
+
+var inst_struct = {
+	instid0 : inst_wordtext0
+};
+//x axis for nouns 416, 672, 928,| for verbs 1184, 1440, 1696, y 544
+//need at least enough words as the words in the text
+//instid0 
+var inst_word0 = instance_create_layer(416, 544,"Mini_layer", oWordboxNoun, {id_of_textbox : inst_struct} );
+var inst_word1 = instance_create_layer(672, 544,"Mini_layer", oWordboxNoun, {id_of_textbox : inst_struct});
+var inst_word2 = instance_create_layer(928, 544,"Mini_layer", oWordboxNoun, {id_of_textbox : inst_struct});
+
+/*
+var inst_struct = {
+	instid0 : inst_word0,
+	instid1 : inst_word1,
+	instid2 : inst_word2
+};*/
+
+
 
 var instlist = [inst_word0, inst_word1, inst_word2];
 
@@ -39,6 +55,7 @@ with(inst_text){
 
 with(inst_word0){
 	name = other.wordlist[0];
+	wordtext = id_of_textbox.instid0;
 }
 
 with(inst_word1){
