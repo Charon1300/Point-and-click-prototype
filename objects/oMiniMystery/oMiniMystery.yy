@@ -12,8 +12,8 @@
   "name":"oMiniMystery",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"point",
+    "path":"folders/Objects/point.yy",
   },
   "parentObjectId":null,
   "persistent":false,

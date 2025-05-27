@@ -10,8 +10,8 @@
   "name":"obj_scrollable",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"narrative",
+    "path":"folders/Objects/narrative.yy",
   },
   "parentObjectId":null,
   "persistent":false,

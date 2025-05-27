@@ -5,7 +5,7 @@ info_struct =
 	name : "Wrecnch",
 	subtext : "A tool that is for contrustion",
 	lore : "A great tool that is made for making of objects",
-	mini_mystery : inst_4970889D,
+	//mini_mystery : inst_4970889D,
 	num_of_nouns : 3,
 	num_of_verbs : 3
 };

@@ -8,8 +8,8 @@
   "name":"oGame",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"narrative",
+    "path":"folders/Objects/narrative.yy",
   },
   "parentObjectId":null,
   "persistent":true,
