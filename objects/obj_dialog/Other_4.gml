@@ -13,5 +13,6 @@ if (!instance_exists(oTextbox))
 		var _arr = msg[i];
 		
 		ds_list_add(_list, _arr);
+		//array_push
 	}
 }

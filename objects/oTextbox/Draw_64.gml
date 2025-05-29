@@ -2,8 +2,8 @@
 // You can write your code in this editor
 var _arr = messages[| messageID];
 
-var _name = _arr[MSG.NAME];
-var _image = _arr[MSG.IMAGE];
+var _name = _arr[MSGs.NAME];
+var _image = _arr[MSGs.IMAGE];
 
 //set text font
 draw_set_font(Fnt_dialog);
@@ -34,7 +34,7 @@ if (sprite_exists(_image))
 draw_set_color(c_white);
 
 //Draw name
-draw_text(_drawX, _drawY, _name);
+draw_text_scribble(_drawX, _drawY, _name);
 
 _drawY += string_height(_name) + padding
 
@@ -42,8 +42,8 @@ _drawY += string_height(_name) + padding
 var _maxW = width - (_drawX + padding);
 
 //Draw Text
-draw_text_ext(_drawX, _drawY, messageText, -1, _maxW);
-
+draw_text_scribble_ext(_drawX, _drawY, messageText, _maxW);
+//draw_text_ext()
 //Reset
 draw_set_color(c_black);
 

@@ -10,7 +10,7 @@ messageChar = 0;
 messageSpeed = 0.3;
 
 //message properties
-enum MSG 
+enum MSGs 
 {
 	TEXT,
 	NAME,

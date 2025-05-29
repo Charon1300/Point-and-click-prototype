@@ -2,8 +2,9 @@
 // You can write your code in this editor
 var _arr = messages[| messageID];
 
-var _text = _arr[MSG.TEXT];
-var _sound = _arr[MSG.SOUND];
+var _text = _arr[MSGs.TEXT];
+var _sound = _arr[MSGs.SOUND];
+
 
 //get message string
 messageText = string_copy(_text, 1, messageChar);
