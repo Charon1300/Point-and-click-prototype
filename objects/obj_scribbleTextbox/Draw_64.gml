@@ -13,11 +13,11 @@ draw_sprite_stretched(Textbox, 0, 0, window_get_height() - 128, display_get_gui_
 
 //Draw Textbox
 //draw_sprite(Textbox, 1, x, y);
-draw_sprite_ext(Textbox, 1, x, 400, display_get_gui_width()/48, 3, 0, c_white, 1);
+draw_sprite_ext(Textbox, 1, x, 850, display_get_gui_width()/48, 3, 0, c_white, 1);
 
 //Draw position
 var _drawX = x + padding;
-var _drawY = 400 + padding;
+var _drawY = 850 + padding;
 
 
 if (sprite_exists(_image)) 

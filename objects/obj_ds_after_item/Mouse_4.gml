@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+/// @description Insert description here
+// You can write your code in this editor TEST
+
 //turns off layers 
 layer_set_visible("Info_layer", false);
 layer_set_visible("tint", false);
@@ -13,7 +16,5 @@ instance_destroy(oMini_maker);
 //instance_activate_layer("ui1");
 //destoys all text objects
 instance_destroy(oText);
+alarm[0] = 40;
 
-//instance_destroy(oMini_maker);
-
-//surface_reset_target();
