@@ -38,7 +38,7 @@ if (sprite_exists(_image))
 
 //scribble object with per writen text and format, wraping, align, and drawing
 var scribble_objectname = scribble(_name)
-	.starting_format("Fnt_dialog", c_aqua)
+	.starting_format("Fnt_dialog", c_white)
 	.wrap(1400)
 	.align(fa_left, fa_top)
 	.draw(_drawX, _drawY);
@@ -51,7 +51,7 @@ var _maxW = width - (_drawX + padding);
 
 //scribble object with per writen text and format, wraping, align, and drawing
 var scribble_objecttext = scribble(_text)
-	.starting_format("Fnt_dialog", c_aqua)
+	.starting_format("Fnt_dialog", c_white)
 	.wrap(1400)
 	.align(fa_left, fa_top)
 	.draw(_drawX, _drawY, typist );

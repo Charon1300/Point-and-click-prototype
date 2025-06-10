@@ -3,7 +3,7 @@
 //-1 for image
 //text, name, image, sound
 msg = [
-	["Hey there![rainbow]AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "Rob", Sprite4],
+	["Hey there!AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "Rob", Sprite4],
 	["Hey therePPPP", "Rob", Sprite4],
 	["Hey there", "Rob", Sprite4],
 	["Hello! its a player", "Player", Sprite4]
