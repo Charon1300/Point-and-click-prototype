@@ -1,16 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mm_text",
+  "%Name":"obj_mm_exit",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_mm_text",
+  "name":"obj_mm_exit",
   "overriddenProperties":[],
   "parent":{
-    "name":"narrative",
-    "path":"folders/Objects/narrative.yy",
+    "name":"MainMenu",
+    "path":"folders/Objects/MainMenu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
