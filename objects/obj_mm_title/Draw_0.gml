@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+//obj for title 
 draw_sprite_ext(dixie2, 1, x, y, 2, 2, 0, c_white, 1);
 var scribble_objectname = scribble("W")
 	.starting_format("Fnt_dialogbig", c_orange)

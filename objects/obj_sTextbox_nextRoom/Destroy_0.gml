@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-letterP = "P";
-letterL = "l";
-letterA = "a";
+//move to next room
+room_goto_next();

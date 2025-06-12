@@ -1,3 +1,5 @@
+//obj for dsRoomStart so that when msgs are done it can move to next room
+
 //typewritier obj and parameters 
 //can make different ones for sound profiles
 typist = scribble_typist();
@@ -11,12 +13,13 @@ messageID = 0;
 messageText = "";
 
 //message properties
+/*
 enum MSG
 {
 	TEXT,
 	NAME,
 	IMAGE,
-}
+}*/
 
 //GUI dimensions 
 var _guiW = display_get_gui_width();

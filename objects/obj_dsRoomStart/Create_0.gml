@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor TEST
 //-1 for image
-//text, name, image, sound
+//text, name, image
+//dialogue obj that when room starts will spawn the textbox and msgs
+//after all msgs displayed the textbox will delete itself
 msg = [
 	["Hey there!AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "Rob", Sprite4],
 	["Hey therePPPP", "Rob", Sprite4],

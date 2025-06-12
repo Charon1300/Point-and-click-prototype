@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"oMini_maker",
+  "%Name":"obj_sTextbox_nextRoom",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oMini_maker",
+  "name":"obj_sTextbox_nextRoom",
   "overriddenProperties":[],
   "parent":{
-    "name":"point",
-    "path":"folders/Objects/point.yy",
+    "name":"narrative",
+    "path":"folders/Objects/narrative.yy",
   },
   "parentObjectId":null,
   "persistent":false,

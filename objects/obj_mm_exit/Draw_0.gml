@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+//draws the sprite with 2 scale
 draw_sprite_ext(dixie2, 1, x, y, 2, 2, 0, c_white, 1);
+//draw at specific spacing for being in center of each dixie tube
 var scribble_objectname = scribble("E")
 	.starting_format("Fnt_dialogbig", c_orange)
 	.wrap(1400)

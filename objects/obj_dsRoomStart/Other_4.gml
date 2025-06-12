@@ -1,11 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor TEST
-if (!instance_exists(obj_scribbleTextbox)) 
+if (!instance_exists(obj_sTextbox_nextRoom)) 
 {
-	//create
-	var _tb	= instance_create_layer(0, 540, "Instances", obj_scribbleTextbox)
+	//create textbox
+	var _tb	= instance_create_layer(0, 540, "Instances", obj_sTextbox_nextRoom)
 	
-	//add msgs to textbox list
+	//add msgs to textbox array 
 	var _list = _tb.messages;
 	
 	for(var i=0; i < array_length(msg); i++)
